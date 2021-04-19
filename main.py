@@ -28,11 +28,11 @@ driver.implicitly_wait(5)
 
 
 username = driver.find_element_by_id("msu-id")
-username.send_keys("dardaniy")
+username.send_keys("dardaniy")  # please change dardaniy to your MSU NetId USERNAME!
 username.send_keys(Keys.RETURN)  # return means enter
 
 password = driver.find_element_by_id("password")
-password.send_keys("Facebooktwitter1")
+password.send_keys("password")   # please change it to your password and run to see, this is just a sample password
 password.send_keys(Keys.RETURN)
 
 breathing = driver.find_element_by_id("breathing2")
