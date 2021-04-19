@@ -1,6 +1,5 @@
 #DANIYAL KABIR DAR
-# 19TH APRL 2021
-# MY FIRST PERSONAL PROJECT
+# 19TH APRIL 2021
 # AUTOMATE FORM FILLING FOR SPARTAN HEALTH FORM
 
 import content as content
@@ -32,7 +31,7 @@ username.send_keys("dardaniy")  # please change dardaniy to your MSU NetId USERN
 username.send_keys(Keys.RETURN)  # return means enter
 
 password = driver.find_element_by_id("password")
-password.send_keys("password")   # please change it to your password and run to see, this is just a sample password
+password.send_keys("pass##")   # please change "pass##" to your password and run to see, this is just a sample password
 password.send_keys(Keys.RETURN)
 
 breathing = driver.find_element_by_id("breathing2")
@@ -77,6 +76,7 @@ email.send_keys("summer93@msu.edu, rosalesn@msu.edu")
 email.send_keys(Keys.RETURN)  # return means enter
 submit = driver.find_element_by_id("submit")
 submit.click()
+driver.quit()
 
 
 
